@@ -8,9 +8,10 @@ mkdir ~/postgres-data #persistent data
 docker-compose up
 ```
 
-* adminer: http://localhost:8080
+## Adminer endpoint
+[http://localhost:8080](http://localhost:8080)
 
-### Adminer Setup
+## Adminer Setup
 - System: `PostgreSQL`
 - Server: `postgres-dev`
 - Username: `dev`
@@ -19,7 +20,8 @@ docker-compose up
 
 ## Useful Commands
 ```$xslt
-docker-compose up
+docker-compose up -d
+docker-compose stop
 docker-compose rm -f
 docker-compose down --rmi all
 ```
