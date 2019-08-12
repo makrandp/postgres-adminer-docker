@@ -13,7 +13,7 @@ services:
     volumes:
       - ~/postgres-data:/var/lib/postgresql/data
 
-  admin:
+  adminer:
       image: adminer
       ports:
         - 8080:8080
